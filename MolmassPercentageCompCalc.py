@@ -39,5 +39,5 @@ while True:
         else:
             SetElementToFormula = Formula(val)
             ElementMass=(SetElementToFormula.mass)
-            print(('|   '+(get_super(val))+" ="),(ElementMass))
+            print(('|   '+(get_super(val))+" ="),(ElementMass),('Making up'),('%.3f'%(((ElementMass/(SetInputToFormula.mass)* 100)))),('% of '+UserInput))
     print('\n\n')
