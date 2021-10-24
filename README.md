@@ -3,5 +3,6 @@ Simple molmass and percentage composition calculator written in python to make m
 
 To use install the re and molmass module
 
-pip install molmass
-pip install re
+1. pip install molmass
+
+2. pip install re
